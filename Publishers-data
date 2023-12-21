@@ -1,7 +1,0 @@
-
--- Expected column names and order: Pub_id, Pub_name, City, State, Country
-
-INSERT INTO PUBLISHERS VALUES ('P01','Abatis Publishers','New York','NY','USA');
-INSERT INTO PUBLISHERS VALUES ('P02','Core Dump Books','San Francisco','CA','USA');
-INSERT INTO PUBLISHERS VALUES ('P03','Schadenfreude Press','Hamburg','' ,'Germany');
-INSERT INTO PUBLISHERS VALUES ('P04','Tenterhooks Press','Berkeley','CA','USA');
