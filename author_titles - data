@@ -1,0 +1,22 @@
+-- # expected column names and sequence: Title_id, Au_id, Au_order, Royalty_share
+
+INSERT ALL
+ INTO author_TITLES values ('T01','A01',1,1.0)
+ INTO author_TITLES values ('T02','A01',1,1.0)
+ INTO author_TITLES values ('T03','A05',1,1.0)
+ INTO author_TITLES values ('T04','A03',1,0.6)
+ INTO author_TITLES values ('T04','A04',2,0.4)
+ INTO author_TITLES values ('T05','A04',1,1.0)
+ INTO author_TITLES values ('T06','A02',1,1.0)
+ INTO author_TITLES values ('T07','A02',1,0.5)
+ INTO author_TITLES values ('T07','A04',2,0.5)
+ INTO author_TITLES values ('T08','A06',1,1.0)
+ INTO author_TITLES values ('T09','A06',1,1.0)
+ INTO author_TITLES values ('T10','A02',1,1.0)
+ INTO author_TITLES values ('T11','A03',2,0.3)
+ INTO author_TITLES values ('T11','A04',3,0.3)
+ INTO author_TITLES values ('T11','A06',1,0.4)
+ INTO author_TITLES values ('T12','A02',1,1.0)
+ INTO author_TITLES values ('T13','A01',1,1.0)
+ SELECT 1 from dual;
+ 
